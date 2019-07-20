@@ -26,6 +26,12 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: 'src'
     },
-    htmlTemplateEngine: 'njk'
+    htmlTemplateEngine: 'njk',
+    templateFormats: [
+      'njk',
+      'md',
+      'ico',
+      'png'
+    ]
   };
 };

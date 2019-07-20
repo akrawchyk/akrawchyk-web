@@ -1,24 +1,47 @@
 const inclusiveLanguage = require('@11ty/eleventy-plugin-inclusive-language');
 
+const htmlmin = require('html-minifier');
 const postcss = require('postcss');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(inclusiveLanguage);
 
-  eleventyConfig.addFilter('postcss', function(css) {
+  eleventyConfig.addTransform('htmlmin', function(content, outputPath) {
+    if (outputPath.endsWith('.html')) {
+      const minified = htmlmin.minify(content, {
+        collapseBooleanAttributes: true,
+        collapseWhitespace: true,
+        decodeEntities: true,
+        removeAttributeQuotes: true,
+        removeComments: true,
+        removeEmptyAttributes: true,
+        removeOptionalTags: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        sortAttributes: true,
+        sortClassName: true,
+        useShortDoctype: true
+      });
+
+      return minified;
+    }
+
+    return content;
+  });
+
+  eleventyConfig.addNunjucksAsyncFilter('postcss', function(content, callback) {
     const plugins = [
       require('postcss-import'),
       require('colorguard'),
       require('postcss-preset-env'),
-      require('postcss-flexbugs-fixes')
+      require('postcss-flexbugs-fixes'),
+      require('cssnano')
     ];
 
-    return postcss(plugins).process(css)
+    postcss(plugins).process(content)
       .then(function(result) {
-        return result.code
-      })
-      .catch(function(error) {
-        console.log(error)
+        callback(null, result.css)
       });
   });
 

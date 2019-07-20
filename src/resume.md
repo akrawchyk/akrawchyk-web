@@ -1,3 +1,8 @@
+---
+layout: page.njk
+title: Resume
+---
+
 # Resume
 
 The three E's

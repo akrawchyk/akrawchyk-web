@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }} | Andrew Krawchyk</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" sizes="192x192" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  {% set css %}
+    {% include "main.css" %}
+  {% endset %}
+  <style>
+    {{ css | postcss | safe }}
+  </style>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  {% block body %}
+  <main>
+    {% block main %}
+    {% endblock %}
+   </main>
+  {% endblock %}
+
+</body>
+
+</html>

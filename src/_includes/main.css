@@ -1,5 +1,149 @@
 @import "normalize.css";
 
-body {
-  background-color: blue;
+/* global styles */
+
+a,
+a:visited {
+  color: rgb(0, 0, 238);
+}
+
+img {
+  max-width: 100%;
+}
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+blockquote,
+dl,
+dd,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 0;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* main layout */
+
+.main-header {
+  grid-area: header;
+}
+
+.main-nav {
+  grid-area: nav;
+}
+
+.content {
+  grid-area: content;
+}
+
+.main-footer {
+  grid-area: footer;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: 
+    "header"
+    "nav"
+    "content"
+    "sidebar"
+    "ad"
+    "footer";
+  grid-template-columns: minmax(auto, 600px);
+  justify-content: center;
+}
+
+/* components */
+
+.home-link {
+  display: inline-block;
+  max-width: 4rem;
+}
+
+.home-link:hover .home-link-img {
+  transform: rotate(-15deg);
+}
+
+.page {
+}
+
+.page h1,
+.page h2,
+.page h3,
+.page h4 {
+  margin-bottom: 1rem;
+}
+
+.page p {
+  margin-bottom: 1rem;
+}
+
+.page ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.page li {
+  margin-bottom: 1rem;
+}
+
+.page li ul {
+  padding-top: 1rem;
+}
+
+/* utilities */
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }

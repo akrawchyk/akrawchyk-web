@@ -7,8 +7,8 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" sizes="192x192" href="icon.png">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" sizes="192x192" href="/icon.png">
+  <link rel="apple-touch-icon" href="/icon.png">
 
   {% set css %}
     {% include "main.css" %}
@@ -23,10 +23,29 @@
 <body>
 
   {% block body %}
-  <main>
-    {% block main %}
-    {% endblock %}
-   </main>
+  <div class="wrapper">
+
+    <header class="main-header">
+      <a class="home-link" href="/">
+        <img class="home-link-img" src="/icon.png" alt="">
+        <span class="sr-only">Home</span>
+      </a>
+    </header>
+
+    <nav class="main-nav">
+      {% for landing in collections.landing %}
+      <a{% if page.url == landing.url %} class="active"{% endif %} href="{{ landing.url }}">{{ landing.data.title }}</a>
+      {% endfor %}
+    </nav>
+
+    <main class="content">
+      {% block main %}
+      {% endblock %}
+    </main>
+
+    <footer class="main-footer">The footer</footer>
+
+  </div>
   {% endblock %}
 
 </body>

@@ -23,27 +23,26 @@
 <body>
 
   {% block body %}
-  <div class="wrapper">
+  <div class="grid">
 
-    <header class="main-header">
+    <header class="grid-item main-header">
       <a class="home-link" href="/">
-        <img class="home-link-img" src="/icon.png" alt="">
         <span class="sr-only">Home</span>
       </a>
     </header>
 
-    <nav class="main-nav">
+    <nav class="grid-item main-nav">
       {% for landing in collections.landing %}
       <a{% if page.url == landing.url %} class="active"{% endif %} href="{{ landing.url }}">{{ landing.data.title }}</a>
       {% endfor %}
     </nav>
 
-    <main class="content">
+    <main class="grid-item content">
       {% block main %}
       {% endblock %}
     </main>
 
-    <footer class="main-footer">The footer</footer>
+    <footer class="grid-item main-footer">The footer</footer>
 
   </div>
   {% endblock %}

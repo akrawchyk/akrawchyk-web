@@ -107,8 +107,8 @@ img {
 .layout {
   flex: 1;
   display: grid;
-  grid-auto-rows: min-content;
   grid-template-columns: repeat(1fr, 2);
+  grid-template-rows: min-content auto min-content;
   grid-template-areas:
     'header  nav'
     'content content'

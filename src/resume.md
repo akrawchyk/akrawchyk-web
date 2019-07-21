@@ -17,7 +17,7 @@ I'm a pragmatic full-stack developer and team builder. I do my best work when I'
 
 ### Optoro
 
-_Senior Web Developer 2017 - present_
+_Senior Web Developer 2017--present_
 
 - **Delivered successful core product features with cross-functional teams.**
   - Collaborated with sales and UX designers to define/design/build products and features for clients including Best Buy, Under Armour, Target, and Lowes.
@@ -42,7 +42,7 @@ _Senior Web Developer 2017 - present_
 
 ### iStrategyLabs
 
-_Senior Web Developer 2016 - 2017_
+_Senior Web Developer 2016--2017_
 
 - Lead a team of front end developers including code reviews, mentoring, and technical direction for projects and tooling.
 - Wrote code and consult for client Django and JavaScript projects.
@@ -51,7 +51,7 @@ _Senior Web Developer 2016 - 2017_
 - Worked with directors to screen candidates and interview and hire new teammates.
 - Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Webpack), ServiceYear.org (Django), P.A.W. dog tracker dog tracking (BTLE, Raspberry Pi, Node.js, Redis).
 
-_Creative Technologist 2014 - 2016_
+_Creative Technologist 2014--2016_
 
 - Created the "Butter Task Force" which introduced web performance standards and monitoring best practices for client projects.
 - Co-created the "Front End Working Group" to codify web standards for idiomatic HTML, BEM-style CSS, and JS style guide with linter configuration.
@@ -60,7 +60,7 @@ _Creative Technologist 2014 - 2016_
 
 ### General Assembly
 
-_Front End Web Development (FEWD) Instructor 2014 - 2016_
+_Front End Web Development (FEWD) Instructor 2014--2016_
 
 - Lead instructor for FEWD 5 & 18, taught web development basics in HTML, CSS, and JavaScript.
 - Professional JavaScript workshop instructor, in applied JS with jQuery and AngularJS.
@@ -68,7 +68,7 @@ _Front End Web Development (FEWD) Instructor 2014 - 2016_
 
 ### General Dynamics IT
 
-_Web Developer 2012 - 2014_
+_Web Developer 2012--2014_
 
 - Delivered high-quality content websites from flat designs.
 - Created design systems in collaboration with UX designers.
@@ -76,14 +76,14 @@ _Web Developer 2012 - 2014_
 
 ## Extras
 
-- Vue Conf 2019 speaker - [watch the talk](https://www.vuemastery.com/conferences/vueconf-us-2019/vuejs-in-practice-at-optoro/){target="\_blank"}
-- AddThis web performance webinar - [watch the presentation](https://www.addthis.com/academy/tips-making-website-load-faster/){target="\_blank"}
-- Refresh DC speaker - [slides](http://slides.com/akrawchyk/performance-and-the-pursuit-of-butter/fullscreen#/){target="\_blank"}
+- Vue Conf 2019 speaker --- [watch the talk](https://www.vuemastery.com/conferences/vueconf-us-2019/vuejs-in-practice-at-optoro/){target="\_blank"}
+- AddThis web performance webinar --- [watch the presentation](https://www.addthis.com/academy/tips-making-website-load-faster/){target="\_blank"}
+- Refresh DC speaker --- [slides](http://slides.com/akrawchyk/performance-and-the-pursuit-of-butter/fullscreen#/){target="\_blank"}
 
 ## Education
 
 ### Denison University
 
-- Computer Science, B.S. 2007 - 2011
-- 2011 NCAA Division 3 Swimming National Champions team
+- Computer Science, B.S. 2007--2011
+- 2011 NCAA Division III Swimming National Champions team
 - Kappa Sigma Gamma Xi founding father

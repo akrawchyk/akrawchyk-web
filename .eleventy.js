@@ -1,5 +1,4 @@
 const inclusiveLanguage = require('@11ty/eleventy-plugin-inclusive-language');
-
 const htmlmin = require('html-minifier');
 const postcss = require('postcss');
 
@@ -33,15 +32,18 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksAsyncFilter('postcss', function(content, callback) {
     const plugins = [
       require('postcss-import'),
-      require('colorguard'),
       require('postcss-preset-env'),
       require('postcss-flexbugs-fixes'),
-      require('cssnano')
+      require('colorguard'),
+      require('cssnano')({
+        preset: ['advanced']
+      })
     ];
 
-    postcss(plugins).process(content)
+    postcss(plugins)
+      .process(content)
       .then(function(result) {
-        callback(null, result.css)
+        callback(null, result.css);
       });
   });
 
@@ -50,11 +52,6 @@ module.exports = function(eleventyConfig) {
       input: 'src'
     },
     htmlTemplateEngine: 'njk',
-    templateFormats: [
-      'njk',
-      'md',
-      'ico',
-      'png'
-    ]
+    templateFormats: ['njk', 'md', 'ico', 'png']
   };
 };

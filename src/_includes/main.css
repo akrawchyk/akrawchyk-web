@@ -1,4 +1,4 @@
-@import "normalize.css";
+@import 'normalize.css';
 
 /* global styles */
 
@@ -69,39 +69,21 @@ img {
 
 /* main layout */
 
-.main-header {
-  grid-area: header;
-  margin-top: 1rem;
-}
-
-.main-nav {
-  grid-area: nav;
-}
-
-.content {
-  grid-area: content;
-}
-
-.main-footer {
-  grid-area: footer;
-}
-
 .grid {
   display: grid;
-  grid-template-areas: 
-    "header"
-    "nav"
-    "content"
-    "footer";
-  grid-template-columns: 
-    [viewport-start] minmax(1rem, 1fr)
-    [container-start] minmax(0, 40rem) [container-end]
-    minmax(1rem, 1fr) [viewport-end];
-  row-gap: 1rem;
+  grid-template-columns:
+    1fr
+    [container] minmax(18rem, 40rem)
+    1fr;
+  grid-gap: 1rem;
 }
 
 .grid-item {
   grid-column: container;
+}
+
+.main-header {
+  padding-top: 1rem;
 }
 
 /* components */

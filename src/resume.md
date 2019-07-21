@@ -14,7 +14,7 @@ I've had a lot of fun using different technologies throughout my career.
 ## Technologies
 
 - Current: Ruby, Rails, JavaScript, Vue, AngularJS, Kafka
-- Past: Python, Django, Node.js, React, Backbone, AWS (Lambda, API Gateway, DynamoDB) 
+- Past: Python, Django, Node.js, React, Backbone, AWS (Lambda, API Gateway, DynamoDB)
 
 ## Experience
 
@@ -30,15 +30,16 @@ I've had a lot of fun using different technologies throughout my career.
   - Stock transfer performance improvements
     - Reduced response time from 20s+ to 3s in production
     - Avoided production downtime by iteratively implementing backwards compatible changes and keeping server/client changes decoupled
-  - Architected B2B Management application to update sales dashboard in real-time with on-hand inventory and aggregate sales data.
+  - Architected B2B Management application to update sales dashboard in real-time with on-hand inventory and sales data.
+    - Carved out a business domain from monolith to a service
     - Carved out a business domain from legacy monolith to implement as a service
     - Used Kafka as message bus and Avro for message serialization
     - Implemented idempotent updates to avoid dirty checking model fields
   - Implemented Exceptions Research Tool
     - Reduced warehouse processing costs by streamlining exceptions research
     - Collaborated with UX to defined/design/build researcher's happy path and tooling
-  - Implemented Mass Receiving mode (& Template Receiving)
-    - Reduced warehouse receiving costs ~40% per unit ($0.60 -> $0.35)
+  - Implemented Mass Receiving mode
+    - Reduced warehouse receiving costs ~40% per unit
     - Further reduced receiving costs in specific cases with template receiving
 - **Lead the direction for cross-team front end architecture.**
   - Grew adoption of Vue framework
@@ -50,7 +51,7 @@ I've had a lot of fun using different technologies throughout my career.
     - Increased platform stability and improved developer experience
     - Championed the adoption of NPM modules, published first packages and engineered the release pipeline for packages
 - **Mentored summer developers x2**
-	- Worked with interns throughout the summer to ramp up their skills to become self-reliant and independent contributors.
+  - Worked with interns throughout the summer to ramp up their skills to become self-reliant and independent contributors.
   - Tech Mentors committee seat
 
 ### iStrategyLabs
@@ -60,13 +61,13 @@ I've had a lot of fun using different technologies throughout my career.
 - Lead a team of front end developers including code reviews, mentoring, and technical direction for projects and tooling.
 - Wrote code and consult for client Django and JavaScript projects.
 - Interfaced with client stakeholders to help determine requirements, estimates, and priorities for tasks.
-- Collaborated with interactive designers and UX designers to concept and implement application features.
+- Collaborated with UX designers to build application features.
 - Worked with directors to screen candidates and interview and hire new teammates.
 - Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Webpack), ServiceYear.org (Django), P.A.W. BTLE+Raspberry Pi dog tracking (Node.js, Redis).
 
 #### Creative Technologist 2014-2016
 
-- Created the “Butter Task Force” to implement web performance standards and monitoring best practices for client projects.
+- Created the “Butter Task Force” which introduced web performance standards and monitoring best practices for client projects.
 - Co-created the “Front End Working Group” to codify web standards for idiomatic HTML, BEM-style CSS, and JS style guide with linter configuration.
 - Delivered high-quality static websites from designs and collaborated with designers to create design systems and polish in agile and waterfall processes.
 - Notable projects: FOSI.org (Django), SungardAS.com (Assemble), Kroger “Taste-of-Mexico” Facebook game (AngularJS), Mo-static project template (Node.js)
@@ -77,7 +78,7 @@ I've had a lot of fun using different technologies throughout my career.
 
 - Lead instructor for FEWD 5 & 18, taught web development basics in HTML, CSS, and JavaScript.
 - Professional JavaScript workshop instructor, in applied JS with jQuery and AngularJS.
-- TA for FEWD 17, met with students outside of class for additional help and coaching.
+- TA for FEWD 17, met with students outside of class for tutoring and mentoring.
 
 ### General Dynamics IT
 

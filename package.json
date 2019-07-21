@@ -6,6 +6,7 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
+    "lint": "write-good src/*.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,12 +17,15 @@
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
     "colorguard": "^1.2.1",
     "cssnano": "^4.1.10",
+    "cssnano-preset-advanced": "^4.0.7",
     "html-minifier": "^4.0.0",
     "normalize.css": "^8.0.1",
     "postcss": "^7.0.17",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.7.0"
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^1.18.2",
+    "write-good": "^1.0.1"
   },
   "dependencies": {}
 }

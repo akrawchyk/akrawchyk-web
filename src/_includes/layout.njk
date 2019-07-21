@@ -23,27 +23,33 @@
 <body>
 
   {% block body %}
-  <div class="layout">
+  <div class="wrapper">
+    <div class="layout">
 
-    <header class="main-header">
-      <a class="home-link" href="/">
-        <span class="sr-only">Home</span>
-      </a>
-    </header>
+      <header class="main-header">
+        <a class="home-link" href="/">
+          <span class="sr-only">Home</span>
+        </a>
+      </header>
 
-    <nav class="main-nav">
-      {% for landing in collections.landing %}
-      <a{% if page.url == landing.url %} class="active"{% endif %} href="{{ landing.url }}">{{ landing.data.title }}</a>
-      {% endfor %}
-    </nav>
+      <nav class="main-nav">
+        <a href="https://github.com/akrawchyk" target="_blank" rel="nofollow">GitHub</a>
+        <a href="https://linkedin.com/in/akrawchyk" target="_blank" rel="nofollow">LinkedIn</a>
+        {% for landing in collections.landing %}
+        <a{% if page.url == landing.url %} class="active"{% endif %} href="{{ landing.url }}">{{ landing.data.title }}</a>
+        {% endfor %}
+      </nav>
 
-    <main class="content">
-      {% block main %}
-      {% endblock %}
-    </main>
+      <main class="content">
+        {% block main %}
+        {% endblock %}
+      </main>
 
-    <footer class="main-footer">The footer</footer>
+    </div>
 
+    <footer class="main-footer">
+      <small>&copy; 2019 Andrew Krawchyk</small>
+    </footer>
   </div>
   {% endblock %}
 

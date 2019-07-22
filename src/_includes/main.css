@@ -114,7 +114,7 @@ strong {
 .layout {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(1fr, 2);
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content auto;
   grid-template-areas:
     'header  nav'
@@ -196,7 +196,7 @@ strong {
 }
 
 .page-resume h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -226,4 +226,14 @@ strong {
   clip: rect(0, 0, 0, 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+}
+
+@media print {
+  .layout {
+    grid-template-columns: 1fr min-content; /* fix puppeteer rendering */
+  }
+
+  .main-footer {
+    display: none;
+  }
 }

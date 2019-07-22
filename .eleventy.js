@@ -4,6 +4,7 @@ const htmlmin = require('html-minifier');
 const postcss = require('postcss');
 
 module.exports = function(eleventyConfig) {
+  // extend markdown processing
   const md = markdownIt({
     html: true,
     linkify: true,
@@ -35,6 +36,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(inclusiveLanguage);
 
+  // html optimizing
   eleventyConfig.addTransform('htmlmin', function(content, outputPath) {
     if (outputPath.endsWith('.html')) {
       return htmlmin.minify(content, {
@@ -57,6 +59,7 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
+  // postcss processing and optimizing
   eleventyConfig.addNunjucksAsyncFilter('postcss', function(content, callback) {
     postcss([
       require('postcss-import'),
@@ -74,6 +77,18 @@ module.exports = function(eleventyConfig) {
       .catch(function(err) {
         callback(err, null);
       });
+  });
+
+  // match on first div tag since html-minifier removes body tag
+  eleventyConfig.setBrowserSyncConfig({
+    snippetOptions: {
+      rule: {
+        match: /<div/i,
+        fn: function (snippet, match) {
+          return snippet + match;
+        }
+      }
+    }
   });
 
   return {

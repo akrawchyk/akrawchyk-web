@@ -9,7 +9,7 @@ description: Andrew Krawchyk's resume
 
 Washington, D.C. --- akrawchyk@gmail.com
 
-I'm a pragmatic full-stack software engineer and team builder. I do my best work when I'm collaborating on challenging problems. {.lede}
+I'm a pragmatic full-stack software engineer and team builder with 8+ years of experience. I do my best work when I'm collaborating on challenging problems. {.lede}
 
 ## Tech
 
@@ -24,8 +24,8 @@ I'm a pragmatic full-stack software engineer and team builder. I do my best work
 _Senior Web Developer_
 
 - **Delivering successful enterprise solutions on cross-functional agile teams.**
-  - Collaborate with sales and UX designers to define, design, and build core product features for clients including Best Buy, Under Armour, Target, and Lowes.
-  - Architected B2B Management dashboard for real-time inventory and sales data.
+  - Define, design, and build core product features for clients including Best Buy, Under Armour, Target, and Lowes.
+  - Build data-intensive and API driven applications in a service oriented architecture.
   - Automated BULQ.com auctions saving 8+ hours per week of manual curating.
   - Improved UX by reducing response times for Stock Transfer tool from 20+ seconds to under 3 seconds by restructuring the API.
   - Reduced warehouse receiving costs ~40% per unit by introducing mass receiving and template receiving.
@@ -34,7 +34,6 @@ _Senior Web Developer_
   - Growing adoption of the Vue JS framework by leading knowledge sharing meetings for collaborative learning.
   - Improved cross-project consistency by implementing default organizational best practices for all applications.
   - Reduced front end architecture and build system complexity by migrating to NPM.
-  - Championed the adoption of NPM modules, published first packages and engineered their release pipeline.
 - **Mentoring summer developers (x2).**
   - Working with interns throughout the summer to ramp up their skills to become self-reliant and independent contributors.
   - Influencing the direction of the mentorship program in the Tech Mentors committee.
@@ -47,14 +46,7 @@ _Senior Web Developer_
 - Interfaced with client stakeholders to determine requirements, estimates, and priorities for tasks.
 - Wrote code and consulted for client Django and JS projects, collaborated with UX designers to build features.
 - Worked with directors to screen candidates and interview and hire new teammates.
-- Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Webpack), ServiceYear.org (Django, Backbone), P.A.W. dog tracker (Raspberry Pi w/BTLE, Node.js, Redis).
-
-_Creative Technologist_
-
-- Created the "Butter Task Force" for introducing web performance standards and monitoring best practices for client projects.
-- Co-created the "Front End Working Group" to codify web standards for idiomatic HTML, BEM-style CSS, and JS style guide with linter configuration.
-- Delivered high-quality static websites from designs and collaborated with designers to create design systems in agile and waterfall processes.
-- Notable projects: FOSI.org (Django), SungardAS.com (Assemble), Kroger "Taste-of-Mexico" Facebook game (AngularJS), Mo-static project template (Node.js).
+- Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Webpack), ServiceYear.org (Django, Backbone), P.A.W. dog tracker (Raspberry Pi w/BTLE, Node.js, Redis), FOSI.org (Django).
 
 ### <span>General Assembly</span> <span>2014--2016</span> {.split}
 
@@ -63,14 +55,6 @@ _Front End Web Development (FEWD) Instructor_
 - Lead instructor for FEWD 5 & 18, taught web development basics in HTML, CSS, and JS.
 - Professional JavaScript workshop instructor, taught applied JS with jQuery and AngularJS.
 - TA for FEWD 17, met with students outside of class for tutoring and mentoring.
-
-### <span>General Dynamics IT</span> <span>2012--2014</span> {.split}
-
-_Web Developer_
-
-- Delivered high-quality content websites from flat designs.
-- Created design systems in collaboration with UX designers.
-- Projects followed agile processes.
 
 ## Extras
 
@@ -84,6 +68,3 @@ _Web Developer_
 ### <span>Denison University</span> <span>2007--2011</span> {.split}
 
 - B.S., Computer Science
-- 2011 NCAA Division III Swimming National Championship champions
-- 2010 NCAA Division III Swimming National Championship runners-up
-- Kappa Sigma Gamma Xi founding father

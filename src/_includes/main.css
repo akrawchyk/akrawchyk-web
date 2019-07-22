@@ -205,8 +205,13 @@ strong {
 }
 
 .page-resume .split {
+  align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+.page-resume .split :last-child {
+  margin-left: 1rem;
 }
 
 /* utilities */

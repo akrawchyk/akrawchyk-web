@@ -7,7 +7,7 @@
 /* https://github.com/suitcss/base/blob/50d5ad1e0d6790eb3df29b705db3684a9909894f/lib/base.css */
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: system-ui;
   line-height: 1.35;
 }
 
@@ -70,6 +70,13 @@ img {
   max-width: 100%;
 }
 
+h1,
+h2,
+h3,
+strong {
+  font-weight: 500;
+}
+
 /* main layout */
 
 .main-header {
@@ -111,8 +118,7 @@ img {
   grid-template-rows: min-content auto min-content;
   grid-template-areas:
     'header  nav'
-    'content content'
-    'footer  footer';
+    'content content';
   grid-gap: 1rem;
 }
 

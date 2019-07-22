@@ -49,6 +49,9 @@ module.exports = function(eleventyConfig) {
       .process(content)
       .then(function(result) {
         callback(null, result.css);
+      })
+      .catch(function(err) {
+        callback(err, null);
       });
   });
 

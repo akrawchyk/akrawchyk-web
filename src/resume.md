@@ -19,14 +19,13 @@ I'm a pragmatic full-stack developer and team builder. I do my best work when I'
 
 _Senior Web Developer 2017--present_
 
-- **Delivered successful core product features with cross-functional teams.**
-  - Collaborated with sales and UX designers to define/design/build products and features for clients including Best Buy, Under Armour, Target, and Lowes.
+- **Delivered successful enterprise solutions with cross-functional teams.**
+  - Collaborated with sales and UX designers to define, design, and build core product features for clients including Best Buy, Under Armour, Target, and Lowes.
   - Architected B2B Management dashboard for real-time inventory and sales data
   - Automated BULQ.com auctions 
-  - Reduced response time for Stock Transfer tool from 20+ seconds to under 3 seconds
-  - Reduced warehouse processing costs by optimizing exceptions researching
-  - Reduced warehouse receiving costs ~40% per unit by introducing mass receiving
-  - Further reduced receiving costs in specific cases with template receiving
+  - Improved response time for Stock Transfer tool from 20+ seconds to under 3 seconds
+  - Reduced warehouse receiving costs ~40% per unit by introducing mass receiving and template receiving
+  - Reduced warehouse processing costs by implementing Exceptions Research tool
 - **Lead the direction for cross-team front end architecture.**
   - Grew adoption of the Vue framework
     - Replaced AngularJS as the de facto front end framework

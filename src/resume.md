@@ -11,7 +11,7 @@ I'm a pragmatic full-stack developer and team builder. I do my best work when I'
 ## Technologies
 
 - Current: Ruby, Rails, JavaScript, Vue, AngularJS, Kafka
-- Past: Python, Django, Node.js, React, Backbone, AWS (Lambda, API Gateway, DynamoDB)
+- Past: Python, Django, Node.js, React, Backbone, AWS (API Gateway, CloudFront, DynamoDB, Lambda, S3)
 
 ## Experience
 

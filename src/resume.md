@@ -22,7 +22,7 @@ _Senior Web Developer 2017--present_
 - **Delivered successful enterprise solutions with cross-functional teams.**
   - Collaborated with sales and UX designers to define, design, and build core product features for clients including Best Buy, Under Armour, Target, and Lowes.
   - Architected B2B Management dashboard for real-time inventory and sales data
-  - Automated BULQ.com auctions 
+  - Automated BULQ.com auctions
   - Improved response time for Stock Transfer tool from 20+ seconds to under 3 seconds
   - Reduced warehouse receiving costs ~40% per unit by introducing mass receiving and template receiving
   - Reduced warehouse processing costs by implementing Exceptions Research tool
@@ -75,9 +75,9 @@ _Web Developer 2012--2014_
 
 ## Extras
 
-- Vue Conf 2019 speaker --- [watch the talk](https://www.vuemastery.com/conferences/vueconf-us-2019/vuejs-in-practice-at-optoro/){target="\_blank"}
-- AddThis web performance webinar --- [watch the presentation](https://www.addthis.com/academy/tips-making-website-load-faster/){target="\_blank"}
-- Refresh DC speaker --- [slides](http://slides.com/akrawchyk/performance-and-the-pursuit-of-butter/fullscreen#/){target="\_blank"}
+- Vue Conf 2019 speaker --- [watch the talk](https://www.vuemastery.com/conferences/vueconf-us-2019/vuejs-in-practice-at-optoro/)
+- AddThis web performance webinar --- [watch the presentation](https://www.addthis.com/academy/tips-making-website-load-faster/)
+- Refresh DC speaker --- [slides](http://slides.com/akrawchyk/performance-and-the-pursuit-of-butter/fullscreen#/)
 
 ## Education
 

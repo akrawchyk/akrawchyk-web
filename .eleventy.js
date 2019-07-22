@@ -1,16 +1,37 @@
 const inclusiveLanguage = require('@11ty/eleventy-plugin-inclusive-language');
-const markdownIt = require('markdown-it')
+const markdownIt = require('markdown-it');
 const htmlmin = require('html-minifier');
 const postcss = require('postcss');
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.setLibrary('md', markdownIt({
+  const md = markdownIt({
     html: true,
     linkify: true,
     typographer: true
   }).use(require('markdown-it-attrs'), {
     allowedAttributes: ['id', 'class', 'rel', 'target']
-  }));
+  });
+
+  // set target="_blank" for all links: https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer:qa
+  const defaultRender =
+    md.renderer.rules.link_open ||
+    function(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+
+  md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
+    const aIndex = tokens[idx].attrIndex('target');
+
+    if (aIndex < 0) {
+      tokens[idx].attrPush(['target', '_blank']);
+    } else {
+      tokens[idx].attrs[aIndex][1] = '_blank';
+    }
+
+    return defaultRender(tokens, idx, options, env, self);
+  };
+
+  eleventyConfig.setLibrary('md', md);
 
   eleventyConfig.addPlugin(inclusiveLanguage);
 

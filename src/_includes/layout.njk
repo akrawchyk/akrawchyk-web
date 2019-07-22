@@ -1,62 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ title }} | Andrew Krawchyk</title>
+    <meta name="description" content="{{ description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>{{ title }} | Andrew Krawchyk</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" sizes="192x192" href="/icon.png" />
+    <link rel="apple-touch-icon" href="/icon.png" />
 
-  <link rel="icon" sizes="192x192" href="/icon.png">
-  <link rel="apple-touch-icon" href="/icon.png">
+    {% set css %}
+      {% include "main.css" %}
+    {% endset %}
+    <style>
+      {{ css | postcss | safe }}
+    </style>
 
-  {% set css %}
-    {% include "main.css" %}
-  {% endset %}
-  <style>
-    {{ css | postcss | safe }}
-  </style>
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <body>
+    {% block body %}
+    <div class="wrapper">
+      <div class="layout">
+        <header class="main-header">
+          <a class="home-link" href="/">
+            <span class="sr-only">
+              Home
+            </span>
+          </a>
+        </header>
 
-<body>
+        <nav class="main-nav">
+          <a href="https://github.com/akrawchyk" target="_blank" rel="nofollow">
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/akrawchyk" target="_blank" rel="nofollow">
+            LinkedIn
+          </a>
+          {% for landing in collections.landing %}
+          <a{% if page.url == landing.url %} class="active"{% endif %} href="{{ landing.url }}">
+            {{ landing.data.title }}
+          </a>
+          {% endfor %}
+        </nav>
 
-  {% block body %}
-  <div class="wrapper">
-    <div class="layout">
+        <main class="content">
+          {% block main %}
+          {% endblock %}
+        </main>
+      </div>
 
-      <header class="main-header">
-        <a class="home-link" href="/">
-          <span class="sr-only">Home</span>
-        </a>
-      </header>
-
-      <nav class="main-nav">
-        <a href="https://github.com/akrawchyk" target="_blank" rel="nofollow">GitHub</a>
-        <a href="https://linkedin.com/in/akrawchyk" target="_blank" rel="nofollow">LinkedIn</a>
-        {% for landing in collections.landing %}
-        <a{% if page.url == landing.url %} class="active"{% endif %} href="{{ landing.url }}">{{ landing.data.title }}</a>
-        {% endfor %}
-      </nav>
-
-      <main class="content">
-        {% block main %}
-        {% endblock %}
-      </main>
-
+      <footer class="main-footer">
+        <small>&copy; 2019 Andrew Krawchyk</small>
+        <small>&mdash;</small>
+        <small>
+          <a href="https://github.com/akrawchyk/akrawchyk-web" rel="nofollow" target="_blank">
+            source code
+          </a>
+        </small>
+      </footer>
     </div>
-
-    <footer class="main-footer">
-      <small>&copy; 2019 Andrew Krawchyk</small>
-      &mdash;
-      <small>
-        <a href="https://github.com/akrawchyk/akrawchyk-web" rel="nofollow" target="_blank">source code</a>
-      </small>
-    </footer>
-  </div>
-  {% endblock %}
-
-</body>
-
+    {% endblock %}
+  </body>
 </html>

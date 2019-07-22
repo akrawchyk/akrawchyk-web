@@ -76,8 +76,8 @@ _Web Developer_
 
 - Vue Conf 2019 speaker --- [watch the talk](https://www.vuemastery.com/conferences/vueconf-us-2019/vuejs-in-practice-at-optoro/)
 - AddThis web performance webinar --- [watch the presentation](https://www.addthis.com/academy/tips-making-website-load-faster/)
-- CodePen DC: Web Audio: Basics to Beats --- [slides](http://slides.com/akrawchyk/webaudio-basics-to-beats/fullscreen#/)
-- Refresh DC: Performance and the Pursuit of Butter --- [slides](http://slides.com/akrawchyk/performance-and-the-pursuit-of-butter/fullscreen#/)
+- CodePen DC: Web Audio: Basics to Beats --- [slides](https://slides.com/akrawchyk/webaudio-basics-to-beats/fullscreen#/)
+- Refresh DC: Performance and the Pursuit of Butter --- [slides](https://slides.com/akrawchyk/performance-and-the-pursuit-of-butter/fullscreen#/)
 
 ## Education
 

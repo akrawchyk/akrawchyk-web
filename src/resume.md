@@ -4,20 +4,20 @@ layout: page.njk
 title: Resume
 ---
 
-# Resume
+# Andrew Krawchyk
 
-I'm a pragmatic full-stack developer and team builder. I do my best work when I'm collaborating on challenging problems.
+I'm a pragmatic full-stack developer and team builder. I do my best work when I'm collaborating on challenging problems. {.lede}
 
 ## Technologies
 
 - Current: Ruby, Rails, JavaScript, Vue, AngularJS, Kafka
-- Past: Python, Django, Node.js, React, Backbone, AWS (API Gateway, CloudFront, DynamoDB, Lambda, S3)
+- Past: Python, Django, Node.js, React, AWS (API Gateway, CloudFront, DynamoDB, Lambda, S3)
 
 ## Experience
 
-### Optoro
+### <span>Optoro</span> <span>2017--present</span> {.split}
 
-_Senior Web Developer 2017--present_
+_Senior Web Developer_
 
 - **Delivered successful enterprise solutions with cross-functional teams.**
   - Collaborated with sales and UX designers to define, design, and build core product features for clients including Best Buy, Under Armour, Target, and Lowes.
@@ -27,47 +27,43 @@ _Senior Web Developer 2017--present_
   - Reduced warehouse receiving costs ~40% per unit by introducing mass receiving and template receiving
   - Reduced warehouse processing costs by implementing Exceptions Research tool
 - **Lead the direction for cross-team front end architecture.**
-  - Grew adoption of the Vue framework
-    - Replaced AngularJS as the de facto front end framework
-    - Lead knowledge sharing meetings to introduce and educate peers
-    - Implemented platform changes to use organizational best practices by default for all applications
-  - Migrated from Bower to NPM
-    - Reduced front end architecture and build system complexity
-    - Increased platform stability and improved developer experience
-    - Championed the adoption of NPM modules, published first packages and engineered the release pipeline for packages
+  - Grew adoption of the Vue JS framework and implemented platform changes to use organizational best practices by default for all applications
+  - Reduced front end architecture and build system complexity by migrating to NPM
+  - Championed the adoption of NPM modules, published first packages and engineered the release pipeline for packages
+  - Lead knowledge sharing meetings to introduce and educate other developers about progress
 - **Mentored summer developers x2**
   - Worked with interns throughout the summer to ramp up their skills to become self-reliant and independent contributors.
   - Tech Mentors committee seat
 
-### iStrategyLabs
+### <span>iStrategyLabs</span> <span>2014--2017</span> {.split}
 
-_Senior Web Developer 2016--2017_
+_Senior Web Developer_
 
 - Lead a team of front end developers including code reviews, mentoring, and technical direction for projects and tooling.
-- Wrote code and consult for client Django and JavaScript projects.
+- Wrote code and consult for client Django and JS projects.
 - Interfaced with client stakeholders to help determine requirements, estimates, and priorities for tasks.
 - Collaborated with UX designers to build application features.
 - Worked with directors to screen candidates and interview and hire new teammates.
-- Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Webpack), ServiceYear.org (Django), P.A.W. dog tracker dog tracking (BTLE, Raspberry Pi, Node.js, Redis).
+- Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Webpack), ServiceYear.org (Django, Backbone), P.A.W. dog tracker (Raspberry Pi w/BTLE, Node.js, Redis).
 
-_Creative Technologist 2014--2016_
+_Creative Technologist_
 
 - Created the "Butter Task Force" which introduced web performance standards and monitoring best practices for client projects.
 - Co-created the "Front End Working Group" to codify web standards for idiomatic HTML, BEM-style CSS, and JS style guide with linter configuration.
 - Delivered high-quality static websites from designs and collaborated with designers to create design systems and polish in agile and waterfall processes.
 - Notable projects: FOSI.org (Django), SungardAS.com (Assemble), Kroger "Taste-of-Mexico" Facebook game (AngularJS), Mo-static project template (Node.js)
 
-### General Assembly
+### <span>General Assembly</span> <span>2014--2016</span> {.split}
 
-_Front End Web Development (FEWD) Instructor 2014--2016_
+_Front End Web Development (FEWD) Instructor_
 
-- Lead instructor for FEWD 5 & 18, taught web development basics in HTML, CSS, and JavaScript.
-- Professional JavaScript workshop instructor, in applied JS with jQuery and AngularJS.
+- Lead instructor for FEWD 5 & 18, taught web development basics in HTML, CSS, and JS.
+- Professional JavaScript workshop instructor, taught applied JS with jQuery and AngularJS.
 - TA for FEWD 17, met with students outside of class for tutoring and mentoring.
 
-### General Dynamics IT
+### <span>General Dynamics IT</span> <span>2012--2014</span> {.split}
 
-_Web Developer 2012--2014_
+_Web Developer_
 
 - Delivered high-quality content websites from flat designs.
 - Created design systems in collaboration with UX designers.

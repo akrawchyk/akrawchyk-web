@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
     typographer: true
   }).use(require('markdown-it-attrs'), {
     allowedAttributes: ['id', 'class', 'rel', 'target']
-  });
+  }).use(require('markdown-it-anchor'));
 
   // set target="_blank" for all links: https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer:qa
   const defaultRender =

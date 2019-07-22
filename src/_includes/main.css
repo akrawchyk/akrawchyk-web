@@ -83,18 +83,6 @@ strong {
 
 /* main layout */
 
-.main-header {
-  grid-area: header;
-}
-
-.main-nav {
-  grid-area: nav;
-}
-
-.content {
-  grid-area: content;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -109,6 +97,18 @@ strong {
   .wrapper {
     width: 40rem;
   }
+}
+
+.main-header {
+  grid-area: header;
+}
+
+.main-nav {
+  grid-area: nav;
+}
+
+.content {
+  grid-area: content;
 }
 
 .layout {

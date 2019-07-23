@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
     linkify: true,
     typographer: true
   }).use(require('markdown-it-attrs'), {
-    allowedAttributes: ['id', 'class', 'rel', 'target']
+    allowedAttributes: ['id', 'class']
   }).use(require('markdown-it-anchor'));
 
   // set target="_blank" for all links: https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer:qa
@@ -20,14 +20,16 @@ module.exports = function(eleventyConfig) {
       return self.renderToken(tokens, idx, options);
     };
 
-  md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
-    const aIndex = tokens[idx].attrIndex('target');
+  md.renderer.rules.link_open = function addAttr(tokens, idx, options, env, self) {
+    [['target', '_blank'], ['rel', 'noreferrer']].map(function([attr, value]) {
+      const aIndex = tokens[idx].attrIndex(attr);
 
-    if (aIndex < 0) {
-      tokens[idx].attrPush(['target', '_blank']);
-    } else {
-      tokens[idx].attrs[aIndex][1] = '_blank';
-    }
+      if (aIndex < 0) {
+        tokens[idx].attrPush([attr, value]);
+      } else {
+        tokens[idx].attrs[aIndex][1] = value;
+      }
+    });
 
     return defaultRender(tokens, idx, options, env, self);
   };

@@ -9,8 +9,6 @@ description: Andrew Krawchyk's resume
 
 Washington, D.C. --- akrawchyk@gmail.com
 
-I'm a pragmatic full-stack software engineer and team builder with 8+ years of experience. I do my best work when I'm collaborating on challenging problems. {.lede}
-
 ## Tech
 
 - Current: Ruby, Rails, JavaScript, Vue, AngularJS, Kafka

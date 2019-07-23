@@ -1,5 +1,6 @@
 @import 'normalize.css';
 
+@custom-media --viewport-small (width >= 30rem);
 @custom-media --viewport-medium (width >= 42rem);
 
 /* global styles */
@@ -127,11 +128,17 @@ strong {
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .main-nav a {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+}
+
+@media (--viewport-small) {
+  .main-nav a {
+    margin-left: 1rem;
+  }
 }
 
 .home-link {
@@ -229,11 +236,7 @@ strong {
 }
 
 @media print {
-  .layout {
-    grid-template-columns: 1fr min-content; /* fix puppeteer rendering */
-  }
-
   .main-footer {
-    display: none;
+    display: none !important;
   }
 }

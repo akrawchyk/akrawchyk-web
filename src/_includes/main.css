@@ -236,7 +236,7 @@ strong {
 }
 
 @media print {
-  .main-footer {
+  .hide-print {
     display: none !important;
   }
 }

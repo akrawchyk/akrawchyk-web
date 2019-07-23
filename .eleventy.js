@@ -98,6 +98,6 @@ module.exports = function(eleventyConfig) {
       input: 'src'
     },
     htmlTemplateEngine: 'njk',
-    templateFormats: ['njk', 'md', 'ico', 'png']
+    templateFormats: ['njk', 'md', 'ico', 'png', 'pdf']
   };
 };

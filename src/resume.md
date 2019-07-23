@@ -7,7 +7,7 @@ description: Andrew Krawchyk's resume
 
 # Andrew Krawchyk
 
-Washington, D.C. --- akrawchyk@gmail.com
+Washington, D.C. --- akrawchyk@gmail.com <span class="hide-print">--- [PDF](/resume.pdf)</span>
 
 ## Tech
 

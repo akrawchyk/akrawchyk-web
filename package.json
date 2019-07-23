@@ -8,6 +8,7 @@
     "serve": "eleventy --serve",
     "lint": "write-good src/*.md",
     "fix": "prettier --write --single-quote **/*.{js,css,md}",
+    "pdf:resume": "opt/make_pdf http://localhost:8080/resume/ --pageRanges 1-2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -30,6 +31,9 @@
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.18.2",
     "write-good": "^1.0.1"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^1.18.1"
   },
   "dependencies": {}
 }

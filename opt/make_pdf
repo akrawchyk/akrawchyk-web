@@ -1,0 +1,38 @@
+#! /usr/bin/env node
+
+const puppeteer = require('puppeteer');
+
+const args = process.argv.slice(2);
+const url = args[0];
+
+const index = args.indexOf('--pageRanges');
+let pageRanges = '';
+
+if (index > -1 && typeof args[index + 1] != 'undefined') {
+  pageRanges = args[index + 1];
+}
+
+(async () => {
+  const browser = await puppeteer.launch();
+
+  const page = await browser.newPage();
+  await page.goto(url);
+
+  console.log(await page.content());
+
+  await page.pdf({ 
+    path: 'document.pdf',
+    format: 'letter', 
+    printBackground: true,
+    pageRanges,
+    scale: 0.8,
+    margin: {
+      top: '2cm',
+      right: '3.5cm',
+      left: '3.5cm',
+      bottom: '2cm'
+    }
+  });
+
+  await browser.close();
+})();

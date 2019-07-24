@@ -19,7 +19,7 @@ Washington, D.C. --- akrawchyk@gmail.com <span class="hide-print">--- [PDF](/res
 
 ### <span>Optoro</span> <span>2017--present</span> {.split}
 
-_Senior Web Developer_
+_Senior Software Engineer_
 
 - Delivering successful enterprise solutions on cross-functional agile teams.
   - Define, design, and build core product features for clients including Best Buy, Under Armour, Target, and Lowes.

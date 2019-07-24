@@ -4,16 +4,16 @@
 
 Getting started:
 
-```
+```shell
 npm install
 
-# or if you dont need/want to generate pdfs, this is faster
+# or if you dont need to generate pdfs, this is faster
 
 npm install --no-optional
 ```
 
 Start a BrowserSync server:
 
-```
+```shell
 npm run serve
 ```

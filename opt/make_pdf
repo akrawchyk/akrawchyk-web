@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 
 const puppeteer = require('puppeteer');
 
@@ -25,11 +25,11 @@ if (index > -1 && typeof args[index + 1] != 'undefined') {
     format: 'letter', 
     printBackground: true,
     pageRanges,
-    scale: 0.8,
+    scale: 0.75,
     margin: {
       top: '2cm',
-      right: '3.5cm',
-      left: '3.5cm',
+      right: '4cm',
+      left: '4cm',
       bottom: '2cm'
     }
   });

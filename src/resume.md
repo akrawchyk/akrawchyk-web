@@ -49,6 +49,14 @@ _Front End Web Development (FEWD) Instructor_
 - Professional JavaScript workshop instructor, taught applied JS with jQuery and AngularJS.
 - Teacher's assistant for FEWD 17, met with students outside of class for tutoring and mentoring.
 
+### <span>General Dynamics Information Technology</span> <span>2012--2014</span> {.split}
+
+_Web Developer_
+
+- Built dynamic user interfaces for API driven applications with jQuery and Backbone.
+- Delivered high-quality multi-lingual news websites from designs.
+- Collaborated with UX designers to create themable component design systems.
+
 ## Extras
 
 - Vue Conf 2019 speaker --- [watch the talk](https://www.vuemastery.com/conferences/vueconf-us-2019/vuejs-in-practice-at-optoro/)

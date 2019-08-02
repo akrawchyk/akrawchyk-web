@@ -39,7 +39,7 @@ _Senior Web Developer_
 - Interfaced with client stakeholders to determine requirements, estimates, and priorities for tasks.
 - Wrote code and consulted for client Django and JS projects, collaborated with UX designers to build features.
 - Worked with directors to screen candidates and interview and hire new teammates.
-- Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Webpack), ServiceYear.org (Django, Backbone), P.A.W. dog tracker (Raspberry Pi w/BTLE, Node.js, Redis), FOSI.org (Django).
+- Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Web Audio, Webpack), ServiceYear.org (Django, Backbone), P.A.W. dog tracker (Raspberry Pi w/BTLE, Node.js, Redis), FOSI.org (Django).
 
 ### <span>General Assembly</span> <span>2014--2016</span> {.split}
 

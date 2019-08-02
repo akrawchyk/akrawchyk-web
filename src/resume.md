@@ -21,20 +21,15 @@ Washington, D.C. --- akrawchyk@gmail.com <span class="hide-print">--- [PDF](/res
 
 _Senior Software Engineer_
 
-- Delivering successful enterprise solutions on cross-functional agile teams.
-  - Define, design, and build core product features for clients including Best Buy, Under Armour, Target, and Lowes.
-  - Build data-intensive and API driven applications in a service oriented architecture.
-  - Automated BULQ.com auctions saving 8+ hours per week of manual curating.
-  - Improved UX by reducing response times for Stock Transfer tool from 20+ seconds to under 3 seconds by restructuring the API.
-  - Reduced warehouse receiving costs ~40% per unit by introducing mass receiving and template receiving.
-  - Reduced warehouse processing costs by implementing Exceptions Research tool.
-- Leading the direction for cross-team front end architecture.
-  - Growing adoption of the Vue JS framework by leading knowledge sharing meetings for collaborative learning.
-  - Improved cross-project consistency by implementing default organizational best practices for all applications.
-  - Reduced front end architecture and build system complexity by migrating to NPM.
-- Mentoring summer developers (x2).
-  - Working with interns throughout the summer to ramp up their skills to become self-reliant and independent contributors.
-  - Influencing the direction of the mentorship program in the Tech Mentors committee.
+- Delivering successful enterprise solutions on cross-functional agile teams by building core product features for clients including Best Buy, Under Armour, Target, and Lowe's.
+- Designing data-intensive and API driven applications in a service-oriented architecture.
+- Leading the direction for cross-team front end architecture by growing adoption of the Vue JS framework and leading knowledge sharing meetings for collaborative learning.
+- Mentoring junior developers and influencing the direction of the mentorship program in the Tech Mentors committee.
+- Reduced the complexity of front end architecture by migrating to NPM
+- Improved cross-project consistency which minimized developer overhead and code duplication by extracting and publishing reusable modules.
+- Improved UX by reducing response times for Stock Transfer tool from 20+ seconds to under 3 seconds by restructuring the API.
+- Automated BULQ.com auctions saving 8+ hours per week of manual curating.
+- Reduced warehouse receiving costs ~40% per unit by introducing Mass Receiving and Template Receiving, also reduced warehouse processing costs by implementing the Exceptions Research tool.
 
 ### <span>iStrategyLabs</span> <span>2014--2017</span> {.split}
 
@@ -52,7 +47,7 @@ _Front End Web Development (FEWD) Instructor_
 
 - Lead instructor for FEWD 5 & 18, taught web development basics in HTML, CSS, and JS.
 - Professional JavaScript workshop instructor, taught applied JS with jQuery and AngularJS.
-- TA for FEWD 17, met with students outside of class for tutoring and mentoring.
+- Teacher's assistant for FEWD 17, met with students outside of class for tutoring and mentoring.
 
 ## Extras
 

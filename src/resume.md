@@ -55,7 +55,7 @@ _Web Developer_
 
 - Built dynamic user interfaces for API driven applications with jQuery and Backbone.
 - Delivered high-quality multi-lingual news websites from designs.
-- Collaborated with UX designers to create themable component design systems.
+- Collaborated with UX designers to create themeable component design systems.
 
 ## Extras
 

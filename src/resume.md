@@ -7,7 +7,7 @@ description: Andrew Krawchyk's resume
 
 # Andrew Krawchyk
 
-Washington, D.C. --- akrawchyk@gmail.com <span class="hide-print">--- [PDF](/resume.pdf)</span>
+Washington, D.C. --- akrawchyk@gmail.com <span class="hide-print">--- [PDF](/akrawchyk-resume.pdf)</span>
 
 ## Tech
 
@@ -23,22 +23,21 @@ _Senior Software Engineer_
 
 - Delivering successful enterprise solutions on cross-functional agile teams by building core product features for clients including Best Buy, Under Armour, Target, and Lowe's.
 - Designing data-intensive and API driven applications in a service-oriented architecture.
-- Leading the direction for cross-team front end architecture by growing adoption of the Vue JS framework and leading knowledge sharing meetings for collaborative learning.
 - Mentoring junior developers and influencing the direction of the mentorship program in the Tech Mentors committee.
-- Reduced the complexity of front end architecture by migrating to NPM
-- Improved cross-project consistency which minimized developer overhead and code duplication by extracting and publishing reusable modules.
-- Improved UX by reducing response times for Stock Transfer tool from 20+ seconds to under 3 seconds by restructuring the API.
+- Leading the direction for cross-team front end architecture by growing adoption of the Vue JS framework and leading knowledge sharing meetings for collaborative learning.
+- Reduced the complexity of front end architecture by migrating to NPM and continuing to improve cross-project consistency and developer experience by publishing reusable modules.
+- Improved user experience by reducing response times for the Stock Transfer tool from 20+ seconds to under 3 seconds by restructuring the API.
 - Automated BULQ.com auctions saving 8+ hours per week of manual curating.
-- Reduced warehouse receiving costs ~40% per unit by introducing Mass Receiving and Template Receiving, also reduced warehouse processing costs by implementing the Exceptions Research tool.
+- Reduced warehouse receiving costs ~40% per unit by introducing Mass Receiving and Template Receiving, reduced warehouse processing costs by implementing the Exceptions Research tool.
 
 ### <span>iStrategyLabs</span> <span>2014--2017</span> {.split}
 
 _Senior Web Developer_
 
-- Led a team of front end developers including code reviews, mentoring, and technical direction for projects and tooling.
+- Led a team of front end developers; responsibilities included code reviews, mentoring, and technical direction for projects and tooling.
 - Interfaced with client stakeholders to determine requirements, estimates, and priorities for tasks.
-- Wrote code and consulted for client Django and JS projects, collaborated with UX designers to build features.
-- Worked with directors to screen candidates and interview and hire new teammates.
+- Wrote code and consulted for client Django and JavaScript projects, collaborated with UX designers to build features.
+- Worked with directors to screen, interview, and hire new teammates.
 - Notable projects: Volkswagen Rival Road game (Phaser.io), Luden’s Beatbox (React, Web Audio, Webpack), ServiceYear.org (Django, Backbone), P.A.W. dog tracker (Raspberry Pi w/BTLE, Node.js, Redis), FOSI.org (Django).
 
 ### <span>General Assembly</span> <span>2014--2016</span> {.split}

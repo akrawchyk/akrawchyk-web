@@ -23,7 +23,7 @@
     "html-minifier": "^4.0.0",
     "markdown-it": "^9.0.1",
     "markdown-it-anchor": "^5.2.4",
-    "markdown-it-attrs": "git+https://github.com/akrawchyk/markdown-it-attrs#ee8b09cdc6a38c08bda9ad239889de9377f126b5",
+    "markdown-it-attrs": "^3.0.1",
     "normalize.css": "^8.0.1",
     "postcss": "^7.0.17",
     "postcss-flexbugs-fixes": "^4.1.0",

@@ -11,7 +11,7 @@ Washington, D.C. --- akrawchyk@gmail.com <span class="hide-print">--- [PDF](/akr
 
 ## Tech
 
-- Current: Ruby, Rails, JavaScript, Vue, Kafka
+- Current: Ruby, Rails, JavaScript, Vue.js, Kafka
 - Past: Python, Django, Node.js, Express, React, Heroku, AWS (API Gateway, CloudFront, DynamoDB, Lambda, S3)
 - Tinkering: Nim, TypeScript, Firebase, Netlify
 
@@ -22,8 +22,8 @@ Washington, D.C. --- akrawchyk@gmail.com <span class="hide-print">--- [PDF](/akr
 _Senior Software Engineer_
 
 - Delivering successful enterprise solutions on cross-functional agile teams by building core product features and integrations for clients including Best Buy, Under Armour, Target, and Lowe's.
-- Designing data-intensive and API driven applications around Kafka in a service-oriented architecture.
-- Implemented designer/developer collaboration process around Storybook and Invision DSM for improving UI fidelity and consistency and reducing rework.
+- Designing data-intensive and API driven applications around Kafka in a distributed architecture.
+- Improved developer satisfaction by implementing design systems using Storybook and Invision DSM.
 - Reduced the complexity of front end architecture by migrating to NPM; improving cross-project consistency and developer experience by publishing reusable modules.
 - Mentoring junior developers and influencing the direction of the mentorship program in the Tech Mentors committee.
 <!-- - Improved user experience by reducing response times for the Stock Transfer tool from 20+ seconds to under 3 seconds by restructuring the API. -->

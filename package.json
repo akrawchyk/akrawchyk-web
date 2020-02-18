@@ -30,7 +30,7 @@
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.18.2",
-    "write-good": "^1.0.1"
+    "write-good": "^1.0.2"
   },
   "optionalDependencies": {
     "puppeteer": "^1.20.0"

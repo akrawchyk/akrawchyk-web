@@ -24,8 +24,8 @@ _Senior Software Engineer_
 - Delivering successful enterprise solutions on cross-functional agile teams by building core product features and integrations for clients including Best Buy, Under Armour, IKEA, and Target.
 - Designing data-intensive and API driven applications (using Rails and Vue.js) around Kafka in a distributed application architecture.
 - Mentoring junior developers and influencing the direction of the mentorship program in the Tech Mentors committee.
-- Improved design/dev velocity by implementing design systems using Storybook and Invision DSM and publishing reusable style framework modules.
-- Reduced the complexity of front end architecture by migrating to NPM and established federated governance guidelines for package contributions.
+- Improved design/dev velocity by leading the implementation of design systems using Storybook and Invision DSM and publishing reusable style framework modules.
+- Leading the direction for front end architecture, migrated developers to NPM and established federated governance guidelines for package contributions.
 - Improved user experience by reducing response times for the Stock Transfer tool from 20+ seconds to <2 seconds by restructuring the API.
 - Automated BULQ.com auctions saving 8+ hours per week of manual curating.
 - Reduced warehouse receiving costs ~40% per unit by introducing ASN Receiving and Mass Receiving

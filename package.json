@@ -12,10 +12,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Krawchyk <akrawchyk@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
     "colorguard": "^1.2.1",
     "cssnano": "^4.1.10",
@@ -23,7 +23,7 @@
     "html-minifier": "^4.0.0",
     "markdown-it": "^9.0.1",
     "markdown-it-anchor": "^5.2.4",
-    "markdown-it-attrs": "git+https://github.com/akrawchyk/markdown-it-attrs#ee8b09cdc6a38c08bda9ad239889de9377f126b5",
+    "markdown-it-attrs": "^3.0.1",
     "normalize.css": "^8.0.1",
     "postcss": "^7.0.17",
     "postcss-flexbugs-fixes": "^4.1.0",
@@ -33,7 +33,7 @@
     "write-good": "^1.0.1"
   },
   "optionalDependencies": {
-    "puppeteer": "^1.18.1"
+    "puppeteer": "^1.20.0"
   },
   "dependencies": {}
 }

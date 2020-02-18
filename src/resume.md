@@ -21,15 +21,15 @@ Washington, D.C. --- akrawchyk@gmail.com <span class="hide-print">--- [PDF](/akr
 
 _Senior Software Engineer_
 
-- Delivering successful enterprise solutions on cross-functional agile teams by building core product features and integrations for clients including Best Buy, Under Armour, Target, and Lowe's.
-- Designing data-intensive and API driven applications around Kafka in a distributed architecture.
-- Improved developer satisfaction by implementing design systems using Storybook and Invision DSM.
-- Reduced the complexity of front end architecture by migrating to NPM; improving cross-project consistency and developer experience by publishing reusable modules.
+- Delivering successful enterprise solutions on cross-functional agile teams by building core product features and integrations for clients including Best Buy, Under Armour, IKEA, and Target.
+- Designing data-intensive and API driven applications (using Rails and Vue.js) around Kafka in a distributed application architecture.
 - Mentoring junior developers and influencing the direction of the mentorship program in the Tech Mentors committee.
-<!-- - Improved user experience by reducing response times for the Stock Transfer tool from 20+ seconds to under 3 seconds by restructuring the API. -->
-<!-- - Automated BULQ.com auctions saving 8+ hours per week of manual curating. -->
-<!-- - Reduced warehouse receiving costs ~40% per unit by introducing Mass Receiving and Template Receiving, reduced warehouse processing costs by implementing the Exceptions Research tool. -->
-
+- Improved design/dev velocity by implementing design systems using Storybook and Invision DSM and publishing reusable style framework modules.
+- Reduced the complexity of front end architecture by migrating to NPM and established federated governance guidelines for package contributions.
+- Improved user experience by reducing response times for the Stock Transfer tool from 20+ seconds to <2 seconds by restructuring the API.
+- Automated BULQ.com auctions saving 8+ hours per week of manual curating.
+- Reduced warehouse receiving costs ~40% per unit by introducing ASN Receiving and Mass Receiving
+- Further reduced receiving processing costs by implementing product catalog matching and exceptions handling features.
 
 ### <span>iStrategyLabs</span> <span>2014--2017</span> {.split}
 
@@ -59,6 +59,10 @@ _Web Developer_
 
 ## Extras
 
+- Hardpass (TypeScript) --- [github](https://github.com/akrawchyk/hardpass)
+- AMWeekly (Django) --- [github](https://github.com/akrawchyk/amweekly)
+- ADL Hate Crime map (React) --- [website](https://www.adl.org/adl-hate-crime-map)
+- Awesome-Vim --- [github](https://github.com/akrawchyk/awesome-vim)
 - Vue Conf 2019 speaker: Vue.js in Practice at Optoro --- [watch the talk](https://www.vuemastery.com/conferences/vueconf-us-2019/vuejs-in-practice-at-optoro/)
 - CodePen DC speaker: Web Audio: Basics to Beats --- [slides](https://slides.com/akrawchyk/webaudio-basics-to-beats/fullscreen#/)
 - Refresh DC speaker: Performance and the Pursuit of Butter --- [slides](https://slides.com/akrawchyk/performance-and-the-pursuit-of-butter/fullscreen#/)

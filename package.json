@@ -8,7 +8,7 @@
     "serve": "eleventy --serve",
     "lint": "write-good src/*.md",
     "fix": "prettier --write --single-quote **/*.{js,css,md}",
-    "pdf:resume": "opt/make_pdf http://localhost:8080/resume/ --pageRanges 1-2",
+    "pdf:resume": "opt/make_pdf http://localhost:8080/resume/ --pageRanges 1-2 > src/akrawchyk-resume.pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -35,5 +35,6 @@
   "optionalDependencies": {
     "puppeteer": "^1.20.0"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }

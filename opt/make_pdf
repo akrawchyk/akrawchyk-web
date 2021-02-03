@@ -27,7 +27,7 @@ if (index > -1 && typeof args[index + 1] != 'undefined') {
     console.log(await page.content());
 
     await page.pdf({
-      path: 'document.pdf',
+      path: 'src/akrawchyk-resume.pdf',
       format: 'letter',
       printBackground: true,
       pageRanges,
